@@ -1,0 +1,10 @@
+image: bitnami/git
+
+pipelines:
+  custom:
+    Production:
+      - step:
+          script:
+            - apt-get update
+            - apt-get -qq install git-ftp
+            - git ftp push --user $USERNAMEPRODUCTION --passwd $PASSWORDPRODUCTION ftp://ftp.santanagody.com

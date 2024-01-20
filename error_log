@@ -1,0 +1,1 @@
+[23-May-2023 08:22:05 UTC] PHP Parse error:  syntax error, unexpected 'static' (T_STATIC) in /home1/giriyatd/public_html/vendor/symfony/string/UnicodeString.php on line 44

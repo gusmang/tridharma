@@ -1,0 +1,61 @@
+$small: 500px;
+$medium: 900px;
+$white:#fff;
+.bg-info {
+    color: $white;
+}
+.table1 td {
+    padding: 0;
+}
+input{
+    &:focus-visible {
+        outline: none;
+    }
+}
+small {
+    font-size: 75%;
+    &.small-2 {
+        position: absolute;
+        bottom: 0;
+    }
+}
+.all-left {
+    text-align:left;
+    ul{
+        padding-left:15px;
+    }
+}
+.pagination {
+    svg{
+        width:30px;
+    }
+    span{
+        color:#858a8c;
+    }
+
+    &>nav>div:first-child{
+        display:none;
+    }
+
+    a svg,
+    a{
+        color:var(--primary-color)
+    }
+
+}
+
+@media screen and (max-width: $small) {
+    table {
+        .xs-hide {
+            display: none;
+        }
+    }
+    .row {
+        .xs-6 {
+            flex: none;
+        }
+    }
+}
+@media screen and (min-width: $medium) {
+//do Smth
+}

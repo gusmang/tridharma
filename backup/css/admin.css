@@ -1,0 +1,50 @@
+.bg-info {
+  color: #fff;
+}
+
+.table1 td {
+  padding: 0;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+small {
+  font-size: 75%;
+}
+small.small-2 {
+  position: absolute;
+  bottom: 0;
+}
+
+.all-left {
+  text-align: left;
+}
+.all-left ul {
+  padding-left: 15px;
+}
+
+.pagination svg {
+  width: 30px;
+}
+.pagination span {
+  color: #858a8c;
+}
+.pagination > nav > div:first-child {
+  display: none;
+}
+.pagination a svg,
+.pagination a {
+  color: var(--primary-color);
+}
+
+@media screen and (max-width: 500px) {
+  table .xs-hide {
+    display: none;
+  }
+
+  .row .xs-6 {
+    flex: none;
+  }
+}

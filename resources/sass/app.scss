@@ -1,0 +1,112 @@
+// Fonts
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+//@import 'variables';
+
+// Bootstrap
+///@import '~bootstrap/scss/bootstrap';
+$small: 500px;
+$medium: 900px;
+$borderColorForm :#d3d3d3;
+
+.footer > * {
+    color: #fff;
+}
+section {
+    &.header {
+        .content {
+            padding: 5rem 1.18rem;
+        }
+    }
+}
+.row {
+    input:focus-visible {
+        outline: none;
+    }
+}
+small {
+    font-size: 75%;
+}
+.form-control {
+    border-color:$borderColorForm;
+}
+.xs-show{
+    display: none;
+}
+.modal-dialog .close {
+    color: #c61115;
+}
+a.wa-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    background-color: #1bb837;
+    box-shadow: 0 0 6px 0px grey;
+    border-radius: 5px;
+    color: #fff;
+
+    &:hover{
+        color: #fff!important;
+    }
+}
+
+nav {
+    li {
+        a {
+            text-transform: uppercase;
+            font-size: 14px!important;
+            color: var(--font-color);;
+        }
+    }
+}
+.navbar-nav .dropdown-menu {
+    top: 80%;
+}
+@media screen and (max-width: $small) {
+    table {
+        .xs-hide {
+            display: none;
+        }
+    }
+    .gallery-vidio {
+        .ml-3 {
+            margin-left: 0px!important;
+        }
+    }
+    .xs-show{
+        display: block;
+    }
+    .xs-hide{
+        display: none!important;
+    }
+    .menu-mobile {
+        .navbar-nav>li {
+            display: flex!important;
+        }
+    }
+    .h1, h1 {
+        font-size: 1.5rem;
+    }
+    .header{
+        .h1, h1 {
+            font-size: 1.5rem;
+        }
+        .content {
+            padding: 2rem 1.18rem!important;
+        }
+    }
+    a.wa-button {
+        span{
+            display: none;
+        }
+        i {
+            font-size: 20px;
+        }
+    }
+}
+@media screen and (min-width: $medium) {
+//do Smth
+}
+
